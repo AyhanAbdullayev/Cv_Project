@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+FR+Trad:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Noto+Sans+Glagolitic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-color: wheat;
+    position: relative;
+}
+.L{
+    font-size: 20px;
+    font-weight: 700;
+}
+.text{
+    border-width: 3px;
+    border-style: solid;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-family: "Source Code Pro", monospace;
+}
+.B{
+    border-width: 5px;
+    border-color: rgb(8, 189, 255);
+    border-style: solid;
+}
+.BE{
+    border-color: rgb(15, 231, 36);
+}
+
+.CA{
+    border-color: rgb(131, 43, 255);
+}
+    
+
+.CR{
+    border-color: rgb(244, 139, 18);
+}
+.title{
+    border-width: 3px;
+    border-style: solid;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+.title1{
+    font-size: 7px;
+}
+.C{
+    border-width: 4px;
+    border-color: rgb(0, 17, 255);
+}
+.S{
+    border-color: rgb(121, 120, 170);
+}
+.Profession{
+    color: rgb(116, 166, 103);
+    font-family: "Source Code Pro", monospace;
+}       
+.Prof{
+    font-family: "Noto Sans Glagolitic", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(4, 103, 241);
+}
+.Ayhan{
+    font-family: "Source Code Pro", monospace;
+    color: rgb(240, 115, 13);
+    text-align: center;
+}
+.ed,.exp{
+    font-size: 23px; 
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    color: rgb(136, 109, 210);
+}
+
+.box{
+    width: 243px;
+    position: relative;
+    left: 82%;
+    top: -687px;   
+    background-color: rgb(167, 218, 15);
+}
+.s{
+    color: rgb(17, 120, 246);
+    text-decoration: none;
+}
+.ep{
+    position: relative;
+    margin: auto;
+    margin-left: 81%;
+    top: -297px;
+}
+.par{
+    position: relative;
+    margin-left: 36%;
+    margin-top: -615px;
+}
+
+@media(max-width:480px){
+    .Profession{
+        font-size: 22px;
+    }
+    .box{
+        position: relative;
+        top: -808px;
+    }
+    .L{
+        font-size: 16px;
+    }
+    .exp{
+        font-size:16px;
+    }
+    .Prof{
+        font-size: 16px;
+    }
+    .ed{
+        font-size: 16px;
+    }
+    .par{
+        left: -98px;
+        margin-top: -280px;
+    }
+    .ep{
+        position: relative;
+        top: -2px;
+    }
+    .pe{
+        position: relative;
+        right: -126px;
+    }
+    .box3{
+        position: relative;
+        left: 68px;
+    }
+}
+@media(min-height:840px){
+    .Profession{
+        font-size: 22px;
+    }
+    .box{
+        position: relative;
+        top: -805px;
+    }
+    .L{
+        font-size: 16px;
+    }
+    .exp{
+        font-size:16px;
+    }
+    .Prof{
+        font-size: 16px;
+    }
+    .ed{
+        font-size: 16px;
+    }
+    .par{
+        left: -98px;
+        margin-top: -280px;
+    }
+    .ep{
+        position: relative;
+        top: -2px;
+    }
+    .pe{
+        position: relative;
+        right: -126px;
+    }
+    .box3{
+        position: relative;
+        left: 124px;
+    }
+}
+@media(height:932px){
+    .Profession{
+        font-size: 22px;
+    }
+    .box{
+        position: relative;
+        top: -784px;
+    }
+    .L{
+        font-size: 16px;
+    }
+    .exp{
+        font-size:16px;
+    }
+    .Prof{
+        font-size: 16px;
+    }
+    .ed{
+        font-size: 16px;
+    }
+    .par{
+        left: -98px;
+        margin-top: -280px;
+    }
+    .ep{
+        position: relative;
+        top: -2px;
+    }
+    .pe{
+        position: relative;
+        right: -126px;
+    }
+    .box3{
+        position: relative;
+        left: 124px;
+    }
+}
+@media(height:658px){
+    .Profession{
+        font-size: 22px;
+    }
+    .box{
+        position: relative;
+        top: -915px;
+    }
+    .L{
+        font-size: 16px;
+    }
+    .exp{
+        font-size:16px;
+    }
+    .Prof{
+        font-size: 16px;
+    }
+    .ed{
+        font-size: 16px;
+    }
+    .par{
+        margin-right: 56px;
+        left: -110px;
+        margin-top: -280px;
+    }
+    .ep{
+        position: relative;
+        top: -2px;
+    }
+    .pe{
+        position: relative;
+        right: -98px;
+    }
+    .box3{
+        position: relative;
+        left: 100px;
+    }
+}
